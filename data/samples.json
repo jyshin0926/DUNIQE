@@ -12,11 +12,11 @@
       "prompt": "Evaluate the naturalness of this speech sample and describe the qualities that support the score.",
       "audio": "audio/nat_01.wav",
       "wave": "audio/nat_01.png",
-      "duration": 7.32,
-      "human": "The naturalness score is 2.0 out of 5.0. The speech sample presents a generally favorable background noise level, being not noticeable, which positively contributes to the listening experience. However, it suffers from significant distortion, characterized by a mechanical sound and pitch distortion, particularly evident in the first seven seconds, which detracts from the overall clarity. The audio also exhibits discontinuity, with breaks and an intermittent electric current quality that disrupts the flow. Listeners experience moderate effort to comprehend the speech, indicating some challenges in understanding. The naturalness of the voice is compromised, as it sounds fairly unnatural, especially in the initial segment. The speaking speed is moderate, which is acceptable, but the overall quality is rated as poor due to these issues. The voice, described as a middle-aged woman's soft tone, adds a peculiar mechanical quality that feels odd. Collectively, these factors suggest a speech sample that is lacking in quality and coherence, leading to an overall unsatisfactory experience.",
-      "model": "The score is 1.6. The speech sample exhibits minimal background noise, allowing for clear audio quality. However, there is noticeable distortion characterized by pitch alterations and a mechanical sound, particularly evident from 0 to 7.5 seconds, which detracts from the overall clarity. The audio experiences some discontinuity, making it somewhat smooth but not entirely seamless, which may require moderate listening effort. The naturalness of the voice is lacking, as it sounds fairly unnatural, particularly between 2 to 4 seconds. The speaking speed is moderate, which is appropriate for comprehension. The voice, described as a middle-aged woman's deep tone, adds a unique character but does not compensate for the overall poor quality. In summary, while the background noise is well-managed, the distortion, unnaturalness, and listening effort significantly impact the overall quality, resulting in a fair evaluation of the speech sample.",
+      "duration": 4.01,
+      "human": "The naturalness score is 2.0 out of 5.0. The speech sample presents a moderately noisy background, particularly noticeable between 0.5s and 3.5s, which slightly detracts from the overall clarity. Distortion is present, creating a mechanical sensation and rhythm irregularities during the same timeframe, contributing to a somewhat altered listening experience. The audio exhibits some discontinuity, making it somewhat smooth but not entirely coherent, requiring moderate effort from the listener to grasp the meaning. The naturalness of the speech is lacking, as it sounds fairly unnatural, especially throughout the first 35 seconds. The speaking speed is moderate, which is acceptable, but the overall quality is rated as poor due to these combined factors. The voice, described as that of a middle-aged man with a low tone, adds to the unnatural feel, ultimately leading to a less favorable impression of the speech sample.",
+      "model": "The score is 2.6. The speech sample is somewhat distorted and smoothly continuous. There is somewhat intrusive background noise in the speech. The overall quality of the speech sample is fair.",
       "human_score": 2.0,
-      "model_score": 1.6
+      "model_score": 2.6
     },
     {
       "id": "nat_02",
@@ -27,10 +27,10 @@
       "audio": "audio/nat_02.wav",
       "wave": "audio/nat_02.png",
       "duration": 8.0,
-      "human": "The naturalness score is 3.0 out of 5.0. The speech sample presents a generally favorable auditory experience, with background noise being virtually imperceptible, allowing for clear listening. However, there is noticeable distortion, particularly characterized by a mechanical sound and a single tone from 0 to 7 seconds, which detracts from the overall quality. The audio exhibits some discontinuity, making it somewhat smooth but not entirely seamless. Listeners may find moderate effort required to fully grasp the content, although attention is necessary without significant strain. The naturalness of the speech is somewhat lacking, especially between 3.1 and 4.2 seconds, where it feels less human-like. The speaking speed is moderate, contributing to a balanced delivery. Overall, while the voice of a middle-aged woman is present, its mechanical tone impacts the overall quality, resulting in a fair evaluation of the speech sample.",
-      "model": "The score is 2.6. The speech sample exhibits minimal background noise, allowing for clear audio. However, there is a noticeable distortion present, particularly in the first 7.5 seconds, which introduces a mechanical quality to the voice. The audio is very smooth, indicating no interruptions or stutters, which contributes positively to the listening experience. Listeners may find that only moderate effort is required to understand the content, suggesting that the speech is generally accessible. The naturalness of the voice is somewhat lacking, as it feels somewhat mechanical, which may affect the overall engagement. The speaking speed is moderate, making it easy to follow. Overall, the voice, described as a middle-aged woman's deep tone, adds a unique character to the sample, resulting in a fair quality assessment.",
+      "human": "The naturalness score is 3.0 out of 5.0. The speech sample presents a generally favorable audio quality, with background noise being virtually imperceptible, allowing for clear listening. However, there is noticeable distortion, particularly from 0 to 6 seconds, where pitch distortion and a mechanical sound intermittently disrupt the natural flow. The audio exhibits some discontinuity, leading to a somewhat smooth experience, but it does require moderate effort to fully comprehend the content. The naturalness of the speech is average, with certain segments between 2.7 and 3.9 seconds feeling particularly unnatural. The speaking speed is moderate, contributing to a balanced delivery. The voice, described as that of a young man with a mechanical tone, adds a unique character but may detract from the overall warmth. Overall, while the sample has strengths in clarity and background noise, the distortion and unnaturalness impact the overall quality, resulting in a fair evaluation.",
+      "model": "The score is 2.2. The speech sample is somewhat distorted and slightly discontinuous. There is slightly noticeable background noise in the speech sample. The overall quality of the speech sample is poor.",
       "human_score": 3.0,
-      "model_score": 2.6
+      "model_score": 2.2
     },
     {
       "id": "nat_03",
@@ -68,11 +68,11 @@
       "prompt": "Evaluate the quality of this speech sample with a score and a short description.",
       "audio": "audio/aq_01.wav",
       "wave": "audio/aq_01.png",
-      "duration": 9.47,
-      "human": "The score of the quality of the speech sample is 1.6. The speech sample is slightly distorted and highly discontinuous. The background noise is noticeable but not intrusive. Overall, the quality of the speech sample is bad.",
-      "model": "The score is 1.2. The speech sample is somewhat distorted and highly discontinuous. The background noise is slightly noticeable. Overall, the quality of the speech sample is bad.",
-      "human_score": 1.6,
-      "model_score": 1.2
+      "duration": 9.37,
+      "human": "The score of the quality of the speech sample is 2.4. The speech sample is somewhat distorted and slightly discontinuous. The background noise is somewhat intrusive. The overall quality of the speech sample is poor.",
+      "model": "The score is 2.8. The speech sample is somewhat distorted and not smooth. The background noise is noticeable but not intrusive. The overall quality of the speech sample is fair.",
+      "human_score": 2.4,
+      "model_score": 2.8
     },
     {
       "id": "aq_02",
@@ -82,11 +82,11 @@
       "prompt": "Evaluate the quality of this speech sample with a score and a short description.",
       "audio": "audio/aq_02.wav",
       "wave": "audio/aq_02.png",
-      "duration": 8.93,
-      "human": "2.6. The speech sample is fairly distorted and not smooth. The background noise is slightly noticeable. Overall, the quality of the speech sample is fair.",
-      "model": "The score is 2.2. The speech sample is very distorted and somewhat discontinuous. The background noise is noticeable but not intrusive. Overall, the quality of the speech sample is poor.",
-      "human_score": 2.6,
-      "model_score": 2.2
+      "duration": 7.55,
+      "human": "The score of the quality of the speech sample is 2.8. The speech sample is very distorted and smooth. There is slightly noticeable background noise in the speech sample. Overall, the quality of the speech sample is fair.",
+      "model": "The score is 2.4. The speech sample is fairly distorted and smoothly continuous. There is slightly noticeable background noise in the speech sample. The overall quality of the speech sample is poor.",
+      "human_score": 2.8,
+      "model_score": 2.4
     },
     {
       "id": "aq_03",
@@ -96,11 +96,11 @@
       "prompt": "Evaluate the quality of this speech sample with a score and a short description.",
       "audio": "audio/aq_03.wav",
       "wave": "audio/aq_03.png",
-      "duration": 8.29,
-      "human": "The score is 3.4. The speech sample is fairly distorted and smoothly continuous. There is slightly noticeable background noise in the speech sample. Overall, the quality of the speech sample is fair.",
-      "model": "The score is 3.0. The speech sample is fairly distorted and smoothly continuous. There is slightly noticeable background noise in the speech sample. The overall quality of the speech sample is fair.",
-      "human_score": 3.4,
-      "model_score": 3.0
+      "duration": 6.43,
+      "human": "The score of the quality of the speech sample is 3.7. The speech sample is slightly distorted and smoothly continuous. The background noise is slightly noticeable. The overall quality of the speech sample is good.",
+      "model": "The score is 3.4. The speech sample is somewhat distorted and smoothly continuous. There is slightly noticeable background noise in the speech sample. The overall quality of the speech sample is good.",
+      "human_score": 3.7,
+      "model_score": 3.4
     },
     {
       "id": "aq_04",
@@ -110,11 +110,11 @@
       "prompt": "Evaluate the quality of this speech sample with a score and a short description.",
       "audio": "audio/aq_04.wav",
       "wave": "audio/aq_04.png",
-      "duration": 7.5,
-      "human": "4.2. The speech sample is slightly distorted and fluently continuous. The background noise is not noticeable. Overall, the quality of the speech sample is excellent.",
-      "model": "The score is 3.8. The speech sample is slightly distorted and smoothly continuous. There is slightly noticeable background noise in the speech sample. Overall, the quality of the speech sample is good.",
-      "human_score": 4.2,
-      "model_score": 3.8
+      "duration": 6.69,
+      "human": "The score of the quality of the speech sample is 4.7. The speech sample is not distorted and fluent. The background noise is not noticeable. The overall quality of the speech sample is excellent.",
+      "model": "The score is 4.2. The speech sample is not distorted and fluently continuous. The background noise is not noticeable. The overall quality of the speech sample is excellent.",
+      "human_score": 4.7,
+      "model_score": 4.2
     },
     {
       "id": "emo_01",
