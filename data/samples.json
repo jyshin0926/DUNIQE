@@ -1,4 +1,4 @@
-window.DEMO_DATA = {
+{
   "title": "D-UNIQE",
   "tagline": "Listening examples for naturalness, audio quality, and emotion.",
   "note": "Clips are evaluation-set excerpts. Ratings are human annotations; D-UNIQE outputs are greedy generations from the paper checkpoint.",
@@ -213,4 +213,4 @@ window.DEMO_DATA = {
       "wave": "audio/emo_04.png"
     }
   ]
-};
+}
