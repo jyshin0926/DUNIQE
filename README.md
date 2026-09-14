@@ -1,4 +1,4 @@
-# D-UNIQE
+# D-UNIQE (submitted to ICASSP2027)
 
 Speech LLM for naturalness, audio quality, and emotion.
 
