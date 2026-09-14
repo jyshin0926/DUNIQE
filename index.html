@@ -3,54 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>D-UNIQE demo</title>
+  <title>D-UNIQE — listening examples</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
-  <div class="grid-fade" aria-hidden="true"></div>
-
-  <header class="hero">
-    <svg class="hero-signal" viewBox="0 0 1200 360" preserveAspectRatio="none" aria-hidden="true">
-      <defs>
-        <linearGradient id="sigGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="rgba(94, 184, 168, 0)" />
-          <stop offset="35%" stop-color="rgba(94, 184, 168, 0.55)" />
-          <stop offset="70%" stop-color="rgba(122, 168, 196, 0.4)" />
-          <stop offset="100%" stop-color="rgba(94, 184, 168, 0)" />
-        </linearGradient>
-      </defs>
-      <path class="sig-path" d="M0 180 C 120 80, 240 280, 360 180 S 600 80, 720 180 S 960 280, 1080 180 S 1200 80, 1200 180" />
-      <path class="sig-path sig-b" d="M0 200 C 150 120, 300 260, 450 200 S 750 140, 900 200 S 1200 260, 1200 200" />
-    </svg>
-    <div class="hero-inner">
-      <p class="kicker">Listening examples</p>
-      <p class="brand">D-UNIQE</p>
-      <h1>Listen to the speech. Compare the ratings.</h1>
-      <p class="lede">
-        D-UNIQE is a speech LLM that writes MOS-style scores and descriptions
-        for naturalness, audio quality, and emotion. These clips are held-out
-        evaluation examples — not a live upload demo.
-      </p>
-      <p class="lede links">
-        <a href="https://github.com/jyshin0926/DUNIQE">Code on GitHub</a>
-      </p>
+  <header class="top">
+    <div class="top-inner">
+      <p class="mark">D-UNIQE</p>
+      <a class="gh" href="https://github.com/jyshin0926/DUNIQE">GitHub</a>
     </div>
   </header>
 
+  <section class="intro">
+    <h1>Hear the assessment.</h1>
+    <p>
+      D-UNIQE is a speech LLM that scores and describes
+      <em>naturalness</em>, <em>audio quality</em>, and <em>emotion</em>.
+      Press play on any clip — no upload, no server.
+    </p>
+  </section>
+
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Tasks"></nav>
+
   <main>
-    <section class="gallery" aria-label="Listening examples">
-      <div class="tabs" id="tabs" role="tablist" aria-label="Evaluation tasks"></div>
-      <p class="section-lede" id="taskLede"></p>
-      <div id="cards" class="cards"></div>
-    </section>
+    <p class="lede" id="taskLede"></p>
+    <div id="cards" class="cards"></div>
   </main>
 
-  <footer class="foot">
-    <p>D-UNIQE · QualiSpeech · NISQA · IEMOCAP</p>
+  <footer>
+    Held-out QualiSpeech, NISQA, and IEMOCAP excerpts.
+    Human ratings vs. greedy D-UNIQE from the paper checkpoint.
   </footer>
 
   <script src="samples.js"></script>
